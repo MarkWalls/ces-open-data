@@ -8,7 +8,10 @@ Working on a data format and visualization tools to help Portland's Community En
 
 ## Install
 1. fork & clone repository
-1. `bundle install`
+2. `bundle install`
+3. Add shotgun
+  1. On Windows: gem install shotgun
+  2. On Linux etc..: sudo gem install shotgun
 
 ## Run
 1. run `shotgun app.rb`
