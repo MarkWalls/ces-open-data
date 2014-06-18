@@ -9,12 +9,10 @@ Working on a data format and visualization tools to help Portland's Community En
 ## Install
 1. fork & clone repository
 2. `bundle install`
-3. Add shotgun
-  1. On Windows: gem install shotgun
-  2. On Linux etc..: sudo gem install shotgun
+3. If not on windows add shotgun: sudo gem install shotgun
 
 ## Run
-1. run `shotgun app.rb`
+1. run `shotgun app.rb` (or on windows run `ruby app.rb` - shotgun does not work on windows: https://github.com/rtomayko/shotgun/issues/40)
 2. visit [http://localhost:9393/](http://localhost:9393/)
 
 ## Documentation
