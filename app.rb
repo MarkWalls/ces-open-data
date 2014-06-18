@@ -32,7 +32,8 @@ post '/submit' do
   Parser.parse(params['file'][:filename], params['file'][:tempfile])
 end
 
-get '/api/samples.?:format?' do
+
+get '/api/:version/samples.?:format?' do
   @samples = Sample.all
   json @samples
 end
